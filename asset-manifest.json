@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Satyanarayana_portfolio/static/css/main.ac4ca503.css",
+    "main.js": "/Satyanarayana_portfolio/static/js/main.29989368.js",
+    "static/media/flite.jpg": "/Satyanarayana_portfolio/static/media/flite.444f6fb3fc4a0a8c99f2.jpg",
+    "static/media/country.jpg": "/Satyanarayana_portfolio/static/media/country.292e93d1cc03435128a1.jpg",
+    "index.html": "/Satyanarayana_portfolio/index.html",
+    "main.ac4ca503.css.map": "/Satyanarayana_portfolio/static/css/main.ac4ca503.css.map",
+    "main.29989368.js.map": "/Satyanarayana_portfolio/static/js/main.29989368.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac4ca503.css",
+    "static/js/main.29989368.js"
+  ]
+}
