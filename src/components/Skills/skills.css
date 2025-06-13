@@ -1,0 +1,115 @@
+
+#skill {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+ 
+.skilltitle {
+  width: 50%;
+  float: left;
+  flex: 1 1 40rem;
+  padding-left: 5%;
+  font-size: 2rem;
+  font-weight: 600;
+  font-display: flex;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  
+}
+.skilldesc {
+  width: 50%;
+  float: right;
+  flex: 1 1 40rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+ 
+}
+.main {
+    font-size: 2rem;
+    font-weight: 700;
+    justify-content: center;
+    color: blue;
+    margin-top: 20px;
+    padding-top: 30px;
+
+}
+.skillsbars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 60%;
+    text-align: left;
+}
+.skillbar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgb(229, 235, 225);
+    border-radius: 15px;
+}
+.set {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+ul {
+    list-style-type: none;
+
+}
+ul span {
+    font-size: 1rem;
+    font-weight: 800;
+    flex-direction: column;
+    padding: 10px 10px;
+    padding-top: 10px;
+    margin: 5px 5px;
+    margin-top: 5px;
+}
+@media screen and (max-width:650px) {
+    ul span {
+        display: flex;
+    }
+}
+@media screen and (max-width:650px) {
+    .skillsbars {
+        max-width: 80%;
+    }
+    .skillbar {
+        display: flex;
+        margin: 1rem;
+        padding: 1rem 1rem;
+        background: rgb(229, 235, 225);
+        border-radius: 15px;
+    }
+    .set {
+        font-size: 1.rem;
+        font-weight: 500;
+    }
+    ul span {
+        padding: 5px 5px;
+        padding-top: 5px;
+        margin: 5px 5px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:650px) {
+    .skillsbars {
+        max-width: 90%;
+    }
+}
+
+

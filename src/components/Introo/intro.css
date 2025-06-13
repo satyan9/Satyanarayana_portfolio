@@ -1,0 +1,91 @@
+.intro{
+    height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 80;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.introcontent {
+    height: 100vh;
+    width: 100vw;
+    padding: 3rem;
+    font-size: 4rem;
+    font-weight: 900;
+    display: flex;
+    font-display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.name {
+    font-size: 3rem;
+    align-content: center;
+    justify-content: center;
+
+}
+.s2 {
+    color: blue;
+    display: flex;
+}
+.s3 {
+    font-size: 1.5rem;
+    font-weight: 0;
+    display: flex;
+}
+.Btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(162, 162, 192);
+    color: rgb(0, 0, 0);
+    margin: 1rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 1rem;
+   
+
+}
+.Btn:hover{
+    background-color: blue;
+    color: white;
+    
+}
+@media screen and (max-width:840px) {
+    .introcontent{
+        font-size: 10vw;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:450px) {
+    .introcontent{
+        font-size: 2rem;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .name {
+        font-size: 2rem;
+        align-content: center;
+        justify-content: center;
+    
+    }
+}
